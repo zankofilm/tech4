@@ -1,0 +1,14 @@
+{
+  "version": "A02-FIX02",
+  "status": "static_checked_not_built",
+  "fixes": [
+    "Import android.app.Activity required for Activity.RESULT_OK",
+    "Preserve android-actions/setup-android@v4 SDK fix",
+    "Capture compiler log and upload build error artifact"
+  ],
+  "not_verified": [
+    "Actual GitHub Build",
+    "Installation on Android device",
+    "Biometric and all teacher portal workflows"
+  ]
+}

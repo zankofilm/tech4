@@ -1,0 +1,14 @@
+{
+  "release": "Madreseyar Teacher Android A02 GITHUB SDK FIX01 TEST",
+  "source": "A02_GITHUB_BIOMETRIC_TEST",
+  "changed_files": [
+    ".github/workflows/build-debug-apk.yml",
+    "README_FA.md",
+    "README.md"
+  ],
+  "fix": "Update android-actions/setup-android v3 to v4; explicitly install platform-tools, avoiding removed tools package",
+  "java_source_changed": false,
+  "host_changed": false,
+  "database_changed": false,
+  "verified": "Workflow parses, required entries and versions match, all original Java source unchanged; no remote Actions build has been performed"
+}

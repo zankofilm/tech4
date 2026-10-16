@@ -1,0 +1,23 @@
+{
+  "name": "Madreseyar Teacher Android A02 FIX03 Kotlin BOM",
+  "base_zip": "Madreseyar_TEACHER_ANDROID_A02_GITHUB_COMPILE_FIX02_TEST.zip",
+  "reason": "duplicate Kotlin stdlib 1.8.22 vs kotlin-stdlib-jdk7/jdk8 1.6.21 in GitHub Actions compilation",
+  "changed_source_files": [
+    "app/build.gradle"
+  ],
+  "fix": "implementation platform('org.jetbrains.kotlin:kotlin-bom:1.8.22')",
+  "unchanged": [
+    "app Java/BiometricVault",
+    "MainActivity",
+    "AndroidManifest",
+    "GitHub Actions",
+    "server",
+    "live data"
+  ],
+  "verified": "offline syntax/layout checks and ZIP integrity; GitHub SDK Gradle build NOT run",
+  "docs": [
+    "README_FA.md",
+    "FIX03_MANIFEST.json"
+  ],
+  "next_step": "replace app/build.gradle, commit, rerun GitHub Actions"
+}
